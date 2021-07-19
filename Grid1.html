@@ -38,10 +38,12 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link"  href="/index.html">Home</a>
+              <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/Grid1.html">Grid 1</a>
+              <a class="nav-link active" aria-current="page" href="/Grid1.html"
+                >Grid 1</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Grid2.html">Grid 2</a>
@@ -73,7 +75,30 @@
     </nav>
 
     <main class="flex-shrink-0">
-      <div class="container"></div>
+      <div class="container h-100 minHeight" >
+        <div class="row row-cols-1 row-cols-md-2 gy-2 h-100">
+          <div class="col">
+            <div class="bg-dark text-light h-100 p-2">
+              <h1> Col One</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Error eius ab possimus molestias maxime, quia hic eveniet 
+              quasi quidem voluptate tenetur cumque distinctio maiores 
+              repellendus ex! Minima nemo voluptatum beatae, 
+              porro placeat optio, inventore, blanditiis quaerat maxime a modi 
+              ab quam? Quam harum omnis dignissimos laboriosam porro. 
+              Esse eum sint maiores dicta! Iste consequatur corrupti consequuntur 
+              dolorem sit ipsam laborum!
+            </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-secondary text-light h-100 p-2">
+              <h1>Col Two</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark">
       <div class="container-fluid text-center">
