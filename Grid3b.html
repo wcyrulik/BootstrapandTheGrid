@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>Bootstrap and The Grid: Grid 3</title>
+    <title>Bootstrap and The Grid: Grid 3b</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -77,14 +77,15 @@
     <main class="flex-shrink-0">
       <div class="container h-100 minHeight">
         <ul class="nav nav-pills mb-1">
-          <li class="nav-item">
-            <a href="Grid3.html" class="nav-link active" aria-current="page">Grid 3</a>
-          </li>
-          <li class="nav-item">
-            <a href="Grid3b.html" class="nav-link" >Grid 3B</a>
-          </li>
-
-        </ul>
+            <li class="nav-item">
+              <a href="Grid3.html" class="nav-link" >Grid 3</a>
+            </li>
+            <li class="nav-item">
+              <a href="Grid3b.html" class="nav-link active" aria-current="page">Grid 3B</a>
+            </li>
+  
+          </ul>
+  
         <div class="row h-100">
           <!-- Leftt Column -->
           <div class="col-7">
@@ -112,43 +113,30 @@
             </div>
           </div>
           <!-- Right Column -->
-          <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+          <div class="col-5">
             <!-- TOP RIGHT COL -->
-            <div class="bg-dark text-light h-50 p-2">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                sem viverra aliquet eget sit amet tellus cras. Cursus sit amet
-                dictum sit amet justo. Vitae auctor eu augue ut lectus arcu
-                bibendum. Mattis ullamcorper velit sed ullamcorper. Ullamcorper
-                a lacus vestibulum sed arcu non. Nunc sed id semper risus in
-                hendrerit gravida rutrum quisque.
-              </p>
+            <div class="bg-secondary text-light p-2">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
             </div>
             <!-- BOTTOM RIGHR COL -->
-            <div class="bg-dark text-light h-50 mt-2 p-2 overflow-auto">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                sem viverra aliquet eget sit amet tellus cras. Cursus sit amet
-                dictum sit amet justo.
-              </p>
-              <p>
-                Vitae auctor eu augue ut lectus arcu bibendum. Mattis
-                ullamcorper velit sed ullamcorper. Ullamcorper a lacus
-                vestibulum sed arcu non. Nunc sed id semper risus in hendrerit
-                gravida rutrum quisque. Sapien nec sagittis aliquam malesuada
-                bibendum arcu.
-              </p>
-              <p>
-                Euismod lacinia at quis risus sed vulputate odio ut enim. Fames
-                ac turpis egestas maecenas pharetra. Mi in nulla posuere
-                sollicitudin aliquam ultrices sagittis orci. Pharetra massa
-                massa ultricies mi quis hendrerit dolor magna eget.
-              </p>
-            </div>
-            <div class="bg-dark text-light border border-top p-2">
-              <button class="btn btn-light" type="button">Read More</button>
+            <div class="bg-dark text-light mt-2 p-2">
+              <h5>More Articles</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Article One</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Article Two</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Article Three</a>
+                </li>
+
+              </ul>
+              
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+d<!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
     <title>Bootstrap and The Grid: Grid 4</title>
@@ -50,9 +50,7 @@
               <a class="nav-link" href="/Grid3.html">Grid 3</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/Grid4.html"
-                >Grid 4</a
-              >
+              <a class="nav-link active" aria-current="page" href="/Grid4.html">Grid 4</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Grid5.html">Grid 5</a>
@@ -75,7 +73,25 @@
     </nav>
 
     <main class="flex-shrink-0">
-      <div class="container"></div>
+      <div class="container h-100 minHeight">
+        <div class="row h-100 row-cols-1 row-cols-md-3 gy-1">
+          <div class="col">
+            <div class="bg-secondary text-light h-100">
+              COL ONE
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-dark text-light h-100">
+              COL TWO
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-secondary text-light h-100">
+              COL THREE
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark">
       <div class="container-fluid text-center">
